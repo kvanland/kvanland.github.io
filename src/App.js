@@ -78,8 +78,8 @@ class App extends Component
               text="I recently graduated with a Bachelors of Science in Computer Science at the University of Southern California. I'm currently working at Viasat Inc. as a Software Engineer primarily focusing on developing augmented reality applications."
             />
         </div>
+
         <div className="container">
-        
           <SectionHeader name="Experience"/>
           <div className="timeline">
             <div className="timeline-event">
@@ -101,7 +101,7 @@ class App extends Component
                 src={responseBot}
                 titleOuter="ResponseBot"
                 subTitle=""
-                href = "https://kvanland.github.io/responseBot/"
+                href = "https://github.com/kvanland/responseBot"
                 linkText="Website"
                 titleInner="Discord text bot"
                 info = "A multi-function discord text bot that can access multiple online services such as Youtube and Twitter. This bot can be easily set up and ran on pretty much any computer or server with an internet connection."
