@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kyle Van Landingham</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <section class="hero is-medium is-primary">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="index.html">
+                            <i class="fas fa-2x fa-laptop-code"></i>
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="index.html">
+                                Work
+                            </a>
+                            <a class="navbar-item is-active" href="about.html">
+                                About
+                            </a>
+                            <span class="navbar-item">
+                                <a class="button is-primary is-inverted" href="https://github.com/kvanland"
+                                    target="_blank">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <span>My Github!</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-half">
+                        <figure class="image">
+                            <img src="images/me.jpg" />
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <h1 class="title is-spaced">
+                            Get to know me!
+                        </h1>
+                        <h2 class="subtitle is-4">
+                            I'm a software engineer always looking to learn more and improve myself.
+                            <br>
+                            <br>
+                            I'm still trying to figure out my career goals but I'm interested in learning more about
+                            cloud computing and CI/CD. Some interesting resources I enjoy are the <a
+                                href="https://softskills.audio/" target="_blank" class="has-text-warning">Soft Skills
+                                Engineering Podcast</a>, the <a href="https://increment.com/" target="_blank"
+                                class="has-text-warning">Increment Magazine</a>, and the <a
+                                href="http://www.programmersstone.com/" target="_blank"
+                                class="has-text-warning">Programmer's Stone</a>. If you have recommendations you'd like
+                            to share please let me know!
+                            <br>
+                            <br>
+                            Besides work related things, I'm a big fan of College Football Fight On! <i
+                                class="far fa-hand-peace"></i> and I enjoy video games quite a bit. I mostly play PC
+                            games with friends and co-workers if you're interested in playing I'm always open to
+                            play with new people.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section hero is-medium">
+        <div class="container">
+            <div class="columns is-vcentered has-text-centered">
+                <div class="column">
+                    <div class="content">
+                        <h3>Let's chat!</h3>
+                        <p>If anything interested you or if you just wanted to chat with me, feel free to reach out and
+                            shoot me an email.</p>
+                        <i class="fas fa-3x fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer has-text-centered">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <a href="mailto:kylevanlandingham9@gmail.com">
+                        <i class="fas fa-3x fa-envelope-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kylevanlandingham/" target="_blank">
+                        <i class="fab fa-3x fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/kvanland" target="_blank">
+                        <i class="fab fa-3x fa-github-square"></i>
+                    </a>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <h3>Check out my resume if you're interested!</h3>
+                        <a href="https://drive.google.com/open?id=1qAVgLf3ujXfMpojeTRgjYUiVIwFPxrgS" target="_blank"><i class="fas fa-3x fa-file"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script>
+        (function () {
+            var burger = document.querySelector('.navbar-burger');
+            var menu = document.querySelector('.navbar-menu');
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        })();
+    </script>
+</body>
+
+
+</html>
